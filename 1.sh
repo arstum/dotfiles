@@ -3,9 +3,9 @@ brew install tmux tmuxinator
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ln -s ~/Documents/back/.ssh ~/
-ln -s ~/Documents/Git/github/dotfiles/.config/  ~/
-ln -s ~/Documents/Git/github/dotfiles/.tmux.conf  ~/
-ln -s ~/Documents/Git/github/dotfiles/.zshrc  ~/
+ln -s ~/Documents/Git/github/dotfiles/~/.config/  ~/
+ln -s ~/Documents/Git/github/dotfiles/~/.tmux.conf  ~/
+ln -s ~/Documents/Git/github/dotfiles/~/.zshrc  ~/
 #read -p 'df' a
 pbcopy < ~/.ssh/github.pub
 pbcopy < ~/.ssh/coding.pub
