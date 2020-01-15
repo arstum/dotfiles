@@ -29,8 +29,7 @@ echo 'B. hosts file'
 #127.0.1.1	myhostname.localdomain myhostname
 echo '
 127.0.0.1	localhost
-::1		localhost
-127.0.0.1	can.localdomain can' >> /etc/hosts
+::1		localhost' >> /etc/hosts
 
 echo '15. create root password and user
 passwd root

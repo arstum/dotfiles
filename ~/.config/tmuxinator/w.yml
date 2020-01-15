@@ -1,4 +1,4 @@
-# /home/can/.config/tmuxinator/w.yml
+# ~/.config/tmuxinator/w.yml
 
 name: w
 root: ~/
